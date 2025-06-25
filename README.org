@@ -1,15 +1,66 @@
 #+title: Readme
 
-* KDE Plasma
-+ Kwin script: Polonium
-+ Global theme: Edna
-+ Icons: Cora
-+ Plasma style: Edna
+* Current WM setup
+*** Window manager
+- Name: SwayWM
+- Config path: ~/.config/sway/config
+https://github.com/WillPower3309/swayfx
 
+*** Topbar
+- Name: Waybar
+- Config path: ~/.config/waybar/config
 
-* i3
+*** App launcher/menu
+- Name: Fuzzel
+- Config path: ~/.config/fuzzel.ini
+- Theme: Catpuccin Mocha (maroon): https://github.com/catppuccin/fuzzel/blob/main/themes/catppuccin-mocha/maroon.ini
 
+*** Lockscreen utility
+- Name: swaylock
+- Config path: ~/.config/swaylock/config
 
+*** Wallpaper/background utility
+- Name: swaybg
 
-** Firefox CSS
-[[https://github.com/alfaaarex/keyfox][Keyfox]]
+*** Notification utility
+- Name: SwayNotificationCentre
+- Config path: ~/.config/swaync/config.json
+
+*** Clipboard manager
+- Name: copyq
+
+*** Screenshot utility
+- Name: grim (Take screenshot)
+- Name: slurp (Screen clipping)
+
+*** Application grid
+- Name: nwg-drawer
+- Config path: ~/.config/nwg-drawer/drawer.css
+
+*** Application dock/taskbar
+- Name: nwg-dock
+- Config path: ~/.config/nwg-dock/style.css
+
+*** Font
+- Name: JetBrainsMono Nerd Font
+https://www.nerdfonts.com/
+
+*** Icons
+- Name: "JetBrainsMono Nerd Font", sans-serif
+https://www.nerdfonts.com/cheat-sheet
+
+*** Code editor
+- Name: Doom Emacs
+- Config path: ~/.doom.d/
+
+*** Terminal emulator
+- Name: Alacritty
+- Config path: ~/.config/alacritty/
+
+*** Web browser
+- Name: Zen Browser
+- Mods: Transparent Zen
+
+** Packages built from source
+- SwayAudioIdleInhibit (https://github.com/ErikReider/SwayAudioIdleInhibit)
+- sway-alttab (https://github.com/autolyticus/sway-alttab)

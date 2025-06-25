@@ -1,0 +1,72 @@
+* {
+    background-image: none;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 14px;
+    color: #cdd6f4;
+}
+
+window {
+    background-color: rgba(17, 17, 27, 0.0);
+}
+
+/* Główne przyciski */
+button {
+    margin: 12px;
+    padding: 0;
+    color: #cdd6f4;
+    font-size: 2rem;
+    background-color: rgba(30, 30, 46, 0.92);
+    border: 1px solid #eba0ac;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;  /* 🔧 Mniejszy rozmiar ikon */
+    box-shadow: none;
+    text-shadow: none;
+    transition: background-color 0.3s ease, background-size 0.3s ease;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color: #585b70;
+    background-size: 36%;  /* 🔧 Rozmiar ikon przy hover */
+    color: #ffffff;
+    border-color: #f38ba8;
+    transition: all 0.3s ease;
+}
+
+/* Poprawna identyfikacja ikon */
+#lock,
+#logout,
+#suspend,
+#hibernate,
+#shutdown,
+#reboot {
+    opacity: 0.95;
+}
+
+/* Ikony */
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}

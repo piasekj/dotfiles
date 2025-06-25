@@ -1,0 +1,71 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 13px;
+    color: #cdd6f4;
+    background: transparent;
+}
+
+/* Tło panelu (control center) */
+window {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.control-center {
+    background-color: rgba(30, 30, 46, 0.95);
+    border-radius: 12px;
+    border: 1px solid #eba0ac;
+    padding: 12px;
+    margin: 8px;
+}
+
+/* Styl pojedynczego powiadomienia */
+.notification {
+    background-color: #1e1e2e;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #eba0ac;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Powiadomienia – kolory w zależności od priorytetu */
+.notification.low {
+    border-color: #94e2d5;
+}
+
+.notification.normal {
+    border-color: #eba0ac;
+}
+
+.notification.critical {
+    border-color: #f38ba8;
+}
+
+/* Tytuł */
+#summary {
+    font-weight: bold;
+    color: #bac2de;
+}
+
+/* Treść */
+#body {
+    color: #cdd6f4;
+}
+
+/* Przyciski */
+#buttons button {
+    background-color: #45475a;
+    border: none;
+    padding: 4px 8px;
+    margin: 2px;
+    border-radius: 6px;
+    color: #cdd6f4;
+    transition: background-color 0.25s ease;
+}
+
+#buttons button:hover {
+    background-color: #585b70;
+    color: #ffffff;
+}

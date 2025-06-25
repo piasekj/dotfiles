@@ -1,0 +1,31 @@
+[font]
+size = 13
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[selection]
+save_to_clipboard = true
+
+[window]
+opacity = 0.89
+
+[window.padding]
+x = 6
+y = 6
+
+[general]
+import = ["theme.toml"]

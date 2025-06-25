@@ -1,0 +1,62 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 13px;
+    color: #cdd6f4;
+}
+
+/* Główne okno */
+window {
+    background-color: rgba(30, 30, 46, 0.95); /* zgodne z .control-center i Waybar */
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid #eba0ac;
+}
+
+/* Pole wyszukiwania */
+entry {
+    background-color: rgba(40, 40, 60, 0.9);
+    border-radius: 8px;
+    padding: 4px 8px;
+    color: #cdd6f4;
+    border: 1px solid #45475a;
+}
+
+/* Przycisk */
+button, image {
+    background: none;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(88, 91, 112, 0.6); /* hover jak Waybar */
+    border-radius: 8px;
+}
+
+/* Styl dla przycisków kategorii */
+#category-button {
+    margin: 0 10px;
+    padding: 4px 8px;
+    background-color: #1e1e2e;
+    border: 1px solid #45475a;
+    border-radius: 10px;
+}
+
+#category-button:hover {
+    background-color: #585b70;
+    border-color: #eba0ac;
+}
+
+/* Sekcja przypiętych */
+#pinned-box {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #45475a;
+    margin-bottom: 6px;
+}
+
+/* Pliki – styl jak wyspy */
+#files-box {
+    padding: 8px;
+    border: 1px solid #45475a;
+    border-radius: 12px;
+    background-color: #1e1e2e;
+}

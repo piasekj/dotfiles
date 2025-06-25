@@ -1,0 +1,45 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", sans-serif;
+  font-size: 13px;
+  color: #cdd6f4;
+}
+
+/* Główne okno docka */
+window {
+  background-color: rgba(30, 30, 46, 0.85); /* przezroczyste tło */
+  border-radius: 12px;
+  border: 1px solid rgba(235, 160, 172, 0.7); /* lekko półprzezroczysty border */
+  padding: 6px;
+}
+
+/* Kontener ikon */
+#box {
+  padding: 6px 10px;
+}
+
+/* Ikony i przyciski */
+button, image {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: #cdd6f4;
+}
+
+/* Styl przycisku */
+button {
+  padding: 6px;
+  margin: 4px;
+  border-radius: 8px;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover: jaśniejsze tło */
+button:hover {
+  background-color: rgba(88, 91, 112, 0.8);
+  border-radius: 8px;
+}
+
+/* Focus: delikatny cień */
+button:focus {
+  box-shadow: 0 0 4px rgba(235, 160, 172, 0.8);
+}

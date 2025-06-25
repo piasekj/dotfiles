@@ -1,0 +1,23 @@
+{
+  "positionX": "right",
+  "positionY": "top",
+  "anchor": "top right",
+  "layer": "overlay",
+
+  "control-center-margin-top": 40,
+  "control-center-margin-right": 20,
+  "control-center-width": 380,
+  "control-center-height": 600,
+
+  "notification-criteria": [
+    {
+      "app-name": "*",
+      "format": "{summary}: {body}"
+    }
+  ],
+  "notification-margin-right": 20,
+  "notification-margin-top": 40,
+  "notification-width": 380,
+  "notification-height": -1,
+  "notification-anchors": ["top", "right"]
+}

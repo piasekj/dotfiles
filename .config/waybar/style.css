@@ -1,0 +1,178 @@
+/* Pasek: całkowicie przezroczysty, bez tła za modułami */
+window#waybar {
+    background-color: transparent;
+    border: none;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 14px;
+    color: #cdd6f4;
+}
+
+/* Styl wspólny dla wszystkich modułów ("wyspy") */
+#sway-workspaces,
+#custom-date,
+#network,
+#custom-power,
+#battery {
+    background-color: #1e1e2e;
+    padding: 4px 12px;
+    margin: 2px 6px;
+    border-radius: 12px;
+    border: 1px solid #eba0ac;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Hover – efekt podświetlenia */
+#sway-workspaces:hover,
+#custom-date:hover,
+#network:hover,
+#custom-power:hover,
+#battery:hover {
+    background-color: #585b70;
+    color: #cdd6f4;
+}
+
+/* Kliknięcie – alternatywa bez transform */
+#sway-workspaces:active,
+#custom-date:active,
+#network:active,
+#custom-power:active,
+#battery:active {
+    background-color: #eba0ac;
+    color: #1e1e2e;
+}
+
+/* Styl dla workspace'ów */
+#workspaces button {
+    padding: 4px 8px;
+    margin: 2px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #cdd6f4;
+    border: 1px solid transparent;
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+/* Hover workspace button – dopasowany do "wysp" */
+#workspaces button:hover {
+    background-color: #45475a;
+    color: #cdd6f4;
+    border-color: #eba0ac;
+}
+
+/* Kliknięcie workspace – zachowanie spójności */
+#workspaces button:active {
+    background-color: #eba0ac;
+    color: #1e1e2e;
+}
+
+/* Focused (aktywny) workspace */
+#workspaces button.focused {
+    background-color: #585b70;
+    color: #cdd6f4;
+    border-color: #eba0ac;
+}
+
+/* Urgent workspace */
+#workspaces button.urgent {
+    background-color: #eba0ac;
+    color: #1e1e2e;
+}
+
+/* Power menu – kolor match z fuzzel */
+#custom-power {
+    color: #eba0ac;
+}
+
+/* Sieć – normalnie jasny, po rozłączeniu stonowany */
+#network {
+    color: #cdd6f4;
+}
+
+#network.disconnected {
+    color: #7f849c;
+}
+
+/* Zegar – pogrubiony, kolor prompt z fuzzel */
+#custom-date {
+    font-weight: bold;
+    color: #bac2de;
+}
+
+/* Bateria – domyślnie zielona, kolory zależne od poziomu */
+#battery {
+    font-weight: normal;
+    color: #a6e3a1; /* zielony */
+}
+
+/* Poziom średni – poniżej 40% */
+#battery.warning {
+    color: #f9e2af; /* żółty (pastelowy) */
+}
+
+/* Poziom niski – poniżej 20% */
+#battery.critical {
+    color: #f38ba8; /* czerwony (match fuzzel border) */
+}
+
+#tray {
+    background-color: #1e1e2e;
+    padding: 4px 10px;
+    margin: 2px 6px;
+    border-radius: 12px;
+    border: 1px solid #eba0ac;
+}
+
+
+#pulseaudio {
+  background-color: #1e1e2e;
+  padding: 4px 12px;
+  margin: 2px 6px;
+  border-radius: 12px;
+  color: #cdd6f4;
+  border: 1px solid #eba0ac;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+#pulseaudio:hover {
+  background-color: #585b70;
+  color: #cdd6f4;
+}
+
+#pulseaudio:active {
+  background-color: #eba0ac;
+  color: #1e1e2e;
+}
+
+#custom-notifications {
+  background-color: #1e1e2e;
+  padding: 4px 12px;
+  margin: 2px 6px;
+  border-radius: 12px;
+  color: #cdd6f4;
+  border: 1px solid #eba0ac;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+#custom-notifications:hover {
+  background-color: #585b70;
+}
+
+#custom-notifications:active {
+  background-color: #eba0ac;
+  color: #1e1e2e;
+}
+
+#mpris {
+    background-color: #1e1e2e;
+    padding: 4px 12px;
+    margin: 2px 6px;
+    border-radius: 12px;
+    color: #cdd6f4;
+    border: 1px solid #eba0ac;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+#mpris:hover {
+    background-color: #585b70;
+    color: #cdd6f4;
+}
