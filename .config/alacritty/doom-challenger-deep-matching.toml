@@ -1,0 +1,23 @@
+[colors.primary]
+background = "#1E1C31"   # bg
+foreground = "#CBE3E7"   # fg
+
+[colors.normal]
+black   = "#100E23"  # base0
+red     = "#FF8080"  # red
+green   = "#95FFA4"  # green
+yellow  = "#FFE9AA"  # yellow
+blue    = "#91DDFF"  # blue
+magenta = "#C991E1"  # magenta
+cyan    = "#AAFFE4"  # cyan
+white   = "#BAC9E4"  # base8
+
+[colors.bright]
+black   = "#3D4551"  # base2
+red     = "#FFB378"  # orange (bright red equivalent)
+green   = "#63F2F1"  # teal (bright green)
+yellow  = "#FFE9AA"  # same as normal yellow
+blue    = "#65B2FF"  # dark-blue (brighter blue)
+magenta = "#906CFF"  # violet (bright magenta)
+cyan    = "#62D196"  # dark-cyan
+white   = "#CBE3E7"  # fg (bright white)

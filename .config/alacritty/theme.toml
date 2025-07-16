@@ -1,23 +1,23 @@
 [colors.primary]
-background = "#1E1C31"   # bg
-foreground = "#CBE3E7"   # fg
+background = "#0B0A17"   # bardzo ciemne tło (inspirowane sceną nocną)
+foreground = "#D8D8F8"   # jasny, chłodny fioletowo-biały kolor tekstu
 
 [colors.normal]
-black   = "#100E23"  # base0
-red     = "#FF8080"  # red
-green   = "#95FFA4"  # green
-yellow  = "#FFE9AA"  # yellow
-blue    = "#91DDFF"  # blue
-magenta = "#C991E1"  # magenta
-cyan    = "#AAFFE4"  # cyan
-white   = "#BAC9E4"  # base8
+black   = "#0B0A17"  # tło
+red     = "#FF5CA3"  # neonowy róż (światła w oknach)
+green   = "#7DFFC4"  # neonowa mięta (cyber-napisy)
+yellow  = "#FFFACD"  # ciepła żółć do subtelnych akcentów
+blue    = "#6EC9FF"  # chłodny błękit
+magenta = "#D06EFF"  # fiolet do akcentów
+cyan    = "#7FFFD4"  # pastelowa zieleń (bliska neonowi)
+white   = "#C8C8E8"  # jasna szarość o chłodnym zabarwieniu
 
 [colors.bright]
-black   = "#3D4551"  # base2
-red     = "#FFB378"  # orange (bright red equivalent)
-green   = "#63F2F1"  # teal (bright green)
-yellow  = "#FFE9AA"  # same as normal yellow
-blue    = "#65B2FF"  # dark-blue (brighter blue)
-magenta = "#906CFF"  # violet (bright magenta)
-cyan    = "#62D196"  # dark-cyan
-white   = "#CBE3E7"  # fg (bright white)
+black   = "#1A1A2F"  # jaśniejszy cień tła
+red     = "#FF85B3"  # jaśniejszy neonowy róż
+green   = "#A4FFD9"  # jaśniejsza mięta
+yellow  = "#FFFBD1"  # rozświetlona żółć
+blue    = "#9DDCFF"  # jaśniejszy błękit
+magenta = "#E0A9FF"  # jaśniejszy fiolet
+cyan    = "#A6FFE0"  # jaśniejszy neon
+white   = "#F0F0FF"  # prawie biały fiolet

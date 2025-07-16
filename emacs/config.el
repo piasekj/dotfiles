@@ -32,7 +32,12 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
+;; (setq doom-theme 'doom-one)
+;; Tell Emacs (and Doom) where to find your custom themes
+(add-to-list 'custom-theme-load-path (expand-file-name "themes/" doom-user-dir))
+
 (setq doom-theme 'doom-challenger-deep)
+
 
 doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 12 :weight 'medium)
 
