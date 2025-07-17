@@ -96,3 +96,12 @@ doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 12 :weight 'medium)
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;; Remove window header for Doom Emacs in Gnome DE
+(setq default-frame-alist '((undecorated . t)))
+
+;; Remove Gnome scroll bar
+(push '(vertical-scroll-bars . nil) default-frame-alist)
+
+;; Show dotfiles and everything using find-file (C-x C-f), for ivy
+(setq counsel-find-file-ignore-regexp nil)
