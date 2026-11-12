@@ -1,0 +1,64 @@
+- [X] see flatpack and missing apps in app launcher (Rofi sees all the apps)
+- [X] wallpaper
+- [x] trackpad sensitivity
+- [X] scaling
+- [X] touchpad tap right and left click and middle click
+- [X] inverse scrolling with touchpad
+- [X] swipe getures (load previous page in browser etc)
+- [X] hide window titlebars
+- [X] polish keyboard
+- [X] bigger mouse cursor
+- [X] Cursor theme (volantes_cursors)
+- [X] gaps between windows
+- [X] rounded corners
+- [X] window borders
+- [X] window shadows
+- [X] file preview in yazi
+- [X] fix file preview for yazi (kinda fixed, at least they open through the right apps)
+- [X] theme for yazi? (zmienic ten niebieski na moj fiolet z wczesniej + zmienic default editor na emacsa)
+- [X] fix "mushy weird scaling thing in most apps (browser) beside emacs, in emacs it works good and in terminal" (na 1.25 jest najlepiej, problem z xwayland, ciezko jest wymusic aplikacje nie natywne na waylanda)
+- [X] swipe gestures to change workplaces
+- [X] waybar (https://github.com/haikal-hakim/athena/tree/main/.config/waybar)
+- [ ] alt-tab functionality
+- [ ] change athena waybar "taskbar apps"
+- [ ] waybar hides when window opens (unless all windows are toggled floating)
+- [ ] some way to see windows in scratch mode
+- [X] volume indicator (volume buttons work)
+- [ ] brightness indicator (brightness buttons work)
+- [ ] waybar icons for workspace apps for emacs, obsidian, zen (albo automatyczne pullowanie ikon na apke)
+- [ ] background apps in tray
+- [ ] waybar indicator of whats playing currently in audio/video
+- [ ] find cooler font (maybe the one used in terminal) for everything
+- [X] terminal file manager - yazi (directly from source)
+- [X] application launcher - rofi?
+- [X] Rofi themes
+- [X] notification center (swaync)
+- [ ] stylize notification center so it fits the colors
+- [ ] super + l - lock screen
+- [X] screenshot utility - grim (full ss), slurp (select region)
+- [ ] clipboard history
+- [ ] make everything more transparent (its not enough right now)
+- [ ] gui network select etc
+- [ ] resource use in bar
+- [ ] active window name in bar
+- [ ] transparent apps still transparent after fullscreen (so you can for example see through transparency desktop wallpaper)
+- [ ] animations with changing the workspace, window popping up, closing etc (need fedora 44 for that, newest swayfx version)
+
+
+Yazi intall directly from github:
+sudo dnf install curl unzip file
+
+mkdir -p ~/.local/bin
+
+curl -fL https://github.com/sxyazi/yazi/releases/latest/download/yazi-x86_64-unknown-linux-gnu.zip -o /tmp/yazi.zip
+
+unzip -o /tmp/yazi.zip -d /tmp
+
+cp /tmp/yazi-x86_64-unknown-linux-gnu/{yazi,ya} ~/.local/bin/
+
+chmod +x ~/.local/bin/{yazi,ya}
+
+
+To use desired cursor themes in GTK apps:
+gsettings set org.gnome.desktop.interface cursor-theme 'volantes_cursors'
+gsettings set org.gnome.desktop.interface cursor-size 24
